@@ -6,6 +6,8 @@
 
 [Open the interactive dashboard](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/dashboard/) · [Chinese report](docs/report-cn.md) · [English report](docs/report-en.md) · [Methodology](docs/methodology.md)
 
+> GitHub Pages is not enabled automatically. Follow the steps below once before sharing the interactive dashboard link.
+
 ## Project Overview
 
 This project examines how the Hong Kong interest-rate hiking cycle coincided with changes in residential mortgage demand, approvals, transactions and negative-equity risk from January 2018 to December 2025.
@@ -77,6 +79,15 @@ python -m http.server 8000
 ```
 
 Then visit `http://127.0.0.1:8000/dashboard/`.
+
+## Enable GitHub Pages
+
+1. Open the repository **Settings**.
+2. Select **Pages** in the left sidebar.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select `main` and `/ (root)`, then click **Save**.
+5. Wait one to two minutes and refresh:
+   `https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/dashboard/`
 
 ## Repository Structure
 
