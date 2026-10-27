@@ -101,15 +101,6 @@ python -m http.server 8000
 
 Then visit `http://127.0.0.1:8000/dashboard/`.
 
-## Enable GitHub Pages
-
-1. Open the repository **Settings**.
-2. Select **Pages** in the left sidebar.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select `main` and `/ (root)`, then click **Save**.
-5. Wait one to two minutes and refresh:
-   `https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/dashboard/`
-
 ## Repository Structure
 
 ```text
@@ -122,7 +113,6 @@ scripts/               data download and reproducible transformation pipeline
 tests/                 pipeline and visual regression checks
 ```
 
-The dashboard payload is included in the repository so the visual portfolio works immediately on GitHub Pages. Raw and processed source files remain excluded to keep the repository compact and can be regenerated with the scripts above.
 
 ## Important Limitations
 
