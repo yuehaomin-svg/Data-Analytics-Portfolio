@@ -11,7 +11,7 @@ A collection of reproducible data-analysis projects covering database design, pr
 
 ## Featured Project 1: Restaurant Analytics
 
-[Project documentation](restaurant-analytics-platform/README.md) · [Chinese briefing](restaurant-analytics-platform/docs/group-briefing.html) · [Metric dictionary](restaurant-analytics-platform/docs/metrics.md) · [Real-data validation](restaurant-analytics-platform/docs/real-data-validation.md)
+[Visual portfolio showcase](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/) · [Project documentation](restaurant-analytics-platform/README.md) · [Metric dictionary](restaurant-analytics-platform/docs/metrics.md) · [Real-data validation](restaurant-analytics-platform/docs/real-data-validation.md)
 
 This project combines a restaurant ordering system with operational analytics. It models the full transaction lifecycle in MySQL, converts orders and refunds into consistent metrics, and tests the same analytical framework on 1.07 million real retail transaction lines.
 

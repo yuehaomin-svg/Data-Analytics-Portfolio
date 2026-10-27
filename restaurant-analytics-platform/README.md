@@ -2,6 +2,10 @@
 
 A full-stack database application for restaurant ordering, checkout, refunds, and operational analytics. The project is designed for DSC5003 Track 1 and doubles as a data-analysis portfolio project.
 
+## Visual Portfolio Showcase
+
+[Open the portfolio case-study page](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/) for a concise visual summary of the system, metrics, real-data validation, engineering evidence and project limitations.
+
 ## Portfolio Highlights
 
 - **End-to-end transaction lifecycle:** menu data, table reservation, order creation, checkout, payment and refund history.
