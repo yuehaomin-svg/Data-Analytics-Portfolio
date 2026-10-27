@@ -1,3 +1,24 @@
+# Data Analytics Portfolio
+
+A collection of reproducible data-analysis projects covering database design, product analytics, customer behavior, risk monitoring, metric governance and decision-oriented visual communication.
+
+## Projects
+
+| Project | Analytical Focus | Key Evidence |
+| --- | --- | --- |
+| [Restaurant Ordering and Operational Analytics](restaurant-analytics-platform/README.md) | Transaction systems, product analysis, repeat behavior, refunds and hourly demand | MySQL schema, SQL views, transaction tests, scale tests and UCI real-data validation |
+| [Hong Kong Mortgage Risk Monitor](#hong-kong-mortgage-risk-monitor) | Mortgage market cycles, composite risk measurement and lead-lag analysis | Reproducible data pipeline, bilingual dashboard, sensitivity analysis and limitations |
+
+## Featured Project 1: Restaurant Analytics
+
+[Project documentation](restaurant-analytics-platform/README.md) · [Chinese briefing](restaurant-analytics-platform/docs/group-briefing.html) · [Metric dictionary](restaurant-analytics-platform/docs/metrics.md) · [Real-data validation](restaurant-analytics-platform/docs/real-data-validation.md)
+
+This project combines a restaurant ordering system with operational analytics. It models the full transaction lifecycle in MySQL, converts orders and refunds into consistent metrics, and tests the same analytical framework on 1.07 million real retail transaction lines.
+
+Portfolio evidence includes a normalized database schema, meaningful SQL analysis views, transaction and concurrency tests, 1K/10K/50K scale experiments, index and `EXPLAIN` analysis, product/customer/time analysis, and a documented boundary between synthetic system data and external method validation.
+
+---
+
 # Hong Kong Mortgage Risk Monitor
 
 ### Data analysis portfolio project on interest rates, mortgage activity and housing risk
