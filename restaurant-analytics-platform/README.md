@@ -171,15 +171,6 @@ sql/schema.sql          generated MySQL DDL
 
 Analytical outputs for the BI exercise are generated under `data/processed/bi`. Raw and processed datasets are excluded from Git and can be recreated using the scripts above.
 
-## One-Month Delivery Plan
-
-- Week 1: requirements, ER model, normalized schema, API contracts, order workflow.
-- Week 2: complete catalog management, checkout/refund workflows, error handling, and tests.
-- Week 3: analytical queries, dashboard, synthetic scale tests, index benchmarks, and `EXPLAIN` results.
-- Week 4: report, contribution statement, screenshots, repository cleanup, and 5–8 minute demo.
-
-The detailed work breakdown is in `docs/project-plan.md`.
-
 ## References and Originality
 
 The project is an original implementation. External resources are used only as business or educational references and must be cited in the final report:
