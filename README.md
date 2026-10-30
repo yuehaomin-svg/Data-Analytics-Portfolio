@@ -19,7 +19,7 @@
 
 *   **🍽️ 餐厅系统 (Restaurant System)**
     *   📄 [图文总结报告 (Summary Page)](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/)
-    *   📊 [交互式 BI 数据分析看板 (Streamlit App)](https://data-analytics-portfolio-aeruxmptdkxypxzusxh96v.streamlit.app/)
+    *   📊 [交互式 BI 数据分析看板 (Streamlit App)](https://restaurant-ordering-and-operational-analytics-dcvtzkhr4wjycvp2.streamlit.app/)
 *   **📈 量化策略展示 (Quant Dashboard)**
     *   📊 [交互式多品种看板 (Streamlit App)](https://quant-dashboard-a25iugewwo9kwswt7q94qd.streamlit.app/)
 *   **🏠 房价按揭监控 (Mortgage Dashboard)**
