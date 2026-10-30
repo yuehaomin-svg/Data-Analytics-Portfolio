@@ -1,7 +1,7 @@
 # 📊 Data Analytics & Strategy Portfolio
 # 商业数据分析与策略落地作品集
 
-👋 **Hi, I'm Haomin (岳昊琨).** 
+👋 **Hi, I'm Marin.** 
 
 此仓库是我的个人作品集，完整展示了从底层关系型数据库设计、数据清洗管道，到用户洞察、风险监控与商业 BI 可视化的全链路能力。
 
