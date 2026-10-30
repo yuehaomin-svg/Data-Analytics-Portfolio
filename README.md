@@ -18,7 +18,7 @@
 为了提供最直观的浏览体验，您可以直接通过以下链接进入图文总结与交互式看板：
 
 *   **🍽️ 餐厅系统 (Restaurant System)**
-    *   📄 [图文总结报告 (Summary Page)](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/)
+    *   📄 [图文总结报告 (Summary Page)](https://yuehaomin-svg.github.io/Restaurant-Ordering-and-Operational-Analytics/)
     *   📊 [交互式 BI 数据分析看板 (Streamlit App)](https://restaurant-ordering-and-operational-analytics-dcvtzkhr4wjycvp2.streamlit.app/)
 *   **📈 量化策略展示 (Quant Dashboard)**
     *   📊 [交互式多品种看板 (Streamlit App)](https://quant-dashboard-a25iugewwo9kwswt7q94qd.streamlit.app/)
