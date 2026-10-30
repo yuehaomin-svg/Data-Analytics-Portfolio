@@ -6,6 +6,19 @@ A full-stack database application for restaurant ordering, checkout, refunds, an
 
 [Open the portfolio case-study page](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/) for a concise visual summary of the system, metrics, real-data validation, engineering evidence and project limitations.
 
+## Streamlit Demo
+
+The repository also includes a Streamlit presentation layer backed by the reproducible `restaurant_demo.sqlite3` snapshot of 1,000 synthetic orders. It is designed for dynamic browser sharing without requiring viewers to install MySQL or Python.
+
+```powershell
+python -m venv .venv-streamlit
+.\.venv-streamlit\Scripts\Activate.ps1
+pip install -r ../requirements.txt
+streamlit run ../streamlit_app.py
+```
+
+For Streamlit Community Cloud, deploy `streamlit_app.py` from the repository root. The app reads the SQLite file at `restaurant-analytics-platform/data/restaurant_demo.sqlite3`.
+
 ## Portfolio Highlights
 
 - **End-to-end transaction lifecycle:** menu data, table reservation, order creation, checkout, payment and refund history.

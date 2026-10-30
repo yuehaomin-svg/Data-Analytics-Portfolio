@@ -13,6 +13,8 @@ A collection of reproducible data-analysis projects covering database design, pr
 
 [Visual portfolio showcase](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/) · [Project documentation](restaurant-analytics-platform/README.md) · [Metric dictionary](restaurant-analytics-platform/docs/metrics.md) · [Real-data validation](restaurant-analytics-platform/docs/real-data-validation.md)
 
+The repository includes `streamlit_app.py`, a dynamic presentation layer for Streamlit Community Cloud backed by a reproducible SQLite snapshot of 1,000 synthetic orders.
+
 This project combines a restaurant ordering system with operational analytics. It models the full transaction lifecycle in MySQL, converts orders and refunds into consistent metrics, and tests the same analytical framework on 1.07 million real retail transaction lines.
 
 Portfolio evidence includes a normalized database schema, meaningful SQL analysis views, transaction and concurrency tests, 1K/10K/50K scale experiments, index and `EXPLAIN` analysis, product/customer/time analysis, and a documented boundary between synthetic system data and external method validation.
