@@ -13,15 +13,31 @@
 
 ---
 
-## 🚀 Featured Projects | 核心项目导航
+## ⚡ 快速体验与在线演示 (Quick Links & Live Demos)
 
- Featured Projects | 核心项目展示
+为了提供最直观的浏览体验，您可以直接通过以下链接进入图文总结与交互式看板：
+
+*   **🍽️ 餐厅系统 (Restaurant System)**
+    *   📄 [图文总结报告 (Summary Page)](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/)
+    *   📊 [交互式 BI 数据分析看板 (Streamlit App)](https://data-analytics-portfolio-aeruxmptdkxypxzusxh96v.streamlit.app/)
+*   **📈 量化策略展示 (Quant Dashboard)**
+    *   📊 [交互式多品种看板 (Streamlit App)](https://quant-dashboard-a25iugewwo9kwswt7q94qd.streamlit.app/)
+*   **🏠 房价按揭监控 (Mortgage Dashboard)**
+    *   📊 [中英双语交互仪表盘 (Dashboard)](https://yuehaomin-svg.github.io/Hong-Kong-Mortgage-Risk-Macro-Factor-Transmission-Analysis/dashboard/)
+
+---
+
+## 📂 核心项目技术导航 (Core Projects)
+
+点击下方项目名称，可跳转至对应的 GitHub 仓库查看更加完整的项目背景、技术方法、完整代码、架构设计与指标定义：
 
 | Project | Analytical Focus | Key Evidence |
 | :--- | :--- | :--- |
 | 🍽️ **[Restaurant Ordering & Operational Analytics](https://github.com/yuehaomin-svg/Restaurant-Ordering-and-Operational-Analytics)** | Transaction system, product analysis, customer retention, and hourly demand. | MySQL schema, transaction tests, BI dashboards, and validation on UCI real-world data. |
 | 📈 **[Quant Strategy & Interactive Dashboard](https://github.com/yuehaomin-svg/quant-dashboard)** | Subjective business needs translation, signal automation, and data product visualization. | Streamlit web app, MLP factor exploration, and Look-ahead bias risk control. |
 | 🏠 **[Hong Kong Mortgage Risk Monitor](https://github.com/yuehaomin-svg/Hong-Kong-Mortgage-Risk-Macro-Factor-Transmission-Analysis)** | Macro-factor cycles, composite risk measurement, and lead-lag causal analysis. | Reproducible data pipelines, sensitivity analysis, and bilingual interactive dashboards. |
+
+---
 
 ---
 
