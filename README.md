@@ -19,7 +19,7 @@
 
 | Project | Analytical Focus | Key Evidence |
 | :--- | :--- | :--- |
-| 🍽️ **[Restaurant Ordering & Operational Analytics]https://github.com/yuehaomin-svg/Restaurant-Ordering-and-Operational-Analytics** | Transaction system, product analysis, customer retention, and hourly demand. | MySQL schema, transaction tests, BI dashboards, and validation on UCI real-world data. |
+| 🍽️ **[Restaurant Ordering & Operational Analytics](https://github.com/yuehaomin-svg/Restaurant-Ordering-and-Operational-Analytics)** | Transaction system, product analysis, customer retention, and hourly demand. | MySQL schema, transaction tests, BI dashboards, and validation on UCI real-world data. |
 | 📈 **[Quant Strategy & Interactive Dashboard](https://github.com/yuehaomin-svg/quant-dashboard)** | Subjective business needs translation, signal automation, and data product visualization. | Streamlit web app, MLP factor exploration, and Look-ahead bias risk control. |
 | 🏠 **[Hong Kong Mortgage Risk Monitor](https://github.com/yuehaomin-svg/Hong-Kong-Mortgage-Risk-Macro-Factor-Transmission-Analysis)** | Macro-factor cycles, composite risk measurement, and lead-lag causal analysis. | Reproducible data pipelines, sensitivity analysis, and bilingual interactive dashboards. |
 
