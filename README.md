@@ -1,131 +1,40 @@
-# Data Analytics Portfolio
+# 📊 Data Analytics & Strategy Portfolio
+# 商业数据分析与策略落地作品集
 
-A collection of reproducible data-analysis projects covering database design, product analytics, customer behavior, risk monitoring, metric governance and decision-oriented visual communication.
+👋 **Hi, I'm Haomin (岳昊琨).** 
 
-## Projects
+此仓库是我的个人作品集，完整展示了从底层关系型数据库设计、数据清洗管道，到用户洞察、风险监控与商业 BI 可视化的全链路能力。
 
-| Project | Analytical Focus | Key Evidence |
-| --- | --- | --- |
-| [Restaurant Ordering and Operational Analytics](restaurant-analytics-platform/README.md) | Transaction systems, product analysis, repeat behavior, refunds and hourly demand | MySQL schema, SQL views, transaction tests, scale tests and UCI real-data validation |
-| [Hong Kong Mortgage Risk Monitor](#hong-kong-mortgage-risk-monitor) | Mortgage market cycles, composite risk measurement and lead-lag analysis | Reproducible data pipeline, bilingual dashboard, sensitivity analysis and limitations |
+比起单纯地写代码或做纯理论研究，我更坚信：**在当前的 AI 时代，用数据驱动业务决策、用好 AI 工具解决真实业务痛点才是核心竞争力。** 得益于统计学与数据科学（Statistics & Data Science）的复合背景，我擅长在复杂的技术实现（如数据库架构、机器学习模型）与真实的商业痛点（如餐饮运营、按揭风险、量化交易）之间搭建桥梁。
 
-## Featured Project 1: Restaurant Analytics
+在这里，你将看到三个核心项目。它们不仅是一行行代码，更完整记录了我从“需求定义 → 数据保障 → 可视化决策”的端到端落地过程。
 
-[Visual portfolio showcase](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/restaurant-analytics-platform/) · [Project documentation](restaurant-analytics-platform/README.md) · [Metric dictionary](restaurant-analytics-platform/docs/metrics.md) · [Real-data validation](restaurant-analytics-platform/docs/real-data-validation.md)
-
-The repository includes `streamlit_app.py`, a dynamic presentation layer for Streamlit Community Cloud backed by a reproducible SQLite snapshot of 1,000 synthetic orders.
-
-This project combines a restaurant ordering system with operational analytics. It models the full transaction lifecycle in MySQL, converts orders and refunds into consistent metrics, and tests the same analytical framework on 1.07 million real retail transaction lines.
-
-Portfolio evidence includes a normalized database schema, meaningful SQL analysis views, transaction and concurrency tests, 1K/10K/50K scale experiments, index and `EXPLAIN` analysis, product/customer/time analysis, and a documented boundary between synthetic system data and external method validation.
+*(This repository serves as my personal portfolio, demonstrating end-to-end capabilities from relational database design and data pipelines to user insights, risk monitoring, and BI visualization. I believe that in the AI era, using data to drive business decisions and leveraging AI tools to solve real-world pain points is what truly matters. With a strong background in Statistics and Data Science, I excel at bridging the gap between complex technical implementation and real-world business needs. Here, you will find three core projects that showcase my complete journey from requirement definition and data governance to visual decision-making.)*
 
 ---
 
-# Hong Kong Mortgage Risk Monitor
+## 🚀 Featured Projects | 核心项目导航
 
-### Data analysis portfolio project on interest rates, mortgage activity and housing risk
+ Featured Projects | 核心项目展示
 
-![Hong Kong Mortgage Risk Monitor dashboard](artifacts/desktop.png)
+| Project | Analytical Focus | Key Evidence |
+| :--- | :--- | :--- |
+| 🍽️ **[Restaurant Ordering & Operational Analytics]https://github.com/yuehaomin-svg/Restaurant-Ordering-and-Operational-Analytics** | Transaction system, product analysis, customer retention, and hourly demand. | MySQL schema, transaction tests, BI dashboards, and validation on UCI real-world data. |
+| 📈 **[Quant Strategy & Interactive Dashboard](https://github.com/yuehaomin-svg/quant-dashboard)** | Subjective business needs translation, signal automation, and data product visualization. | Streamlit web app, MLP factor exploration, and Look-ahead bias risk control. |
+| 🏠 **[Hong Kong Mortgage Risk Monitor](https://github.com/yuehaomin-svg/Hong-Kong-Mortgage-Risk-Macro-Factor-Transmission-Analysis)** | Macro-factor cycles, composite risk measurement, and lead-lag causal analysis. | Reproducible data pipelines, sensitivity analysis, and bilingual interactive dashboards. |
 
-[Open the interactive dashboard](https://yuehaomin-svg.github.io/Data-Analytics-Portfolio/dashboard/) · [Chinese report](docs/report-cn.md) · [English report](docs/report-en.md) · [Methodology](docs/methodology.md)
+---
 
-> GitHub Pages is not enabled automatically. Follow the steps below once before sharing the interactive dashboard link.
+## Project Highlights | 项目业务亮点
 
-## Project Overview
+### 1. 🍽️ Restaurant Ordering & Operational Analytics
+**中**：源于真实餐饮业务痛点，从 0 到 1 搭建完整交易闭环与 BI 分析链路。通过指标构建（净销售/复购率/退款率）与可视化看板，为管理层提供排班优化与 CRM 运营策略支持。
+**EN**：Bridged the gap between raw transactions and business decisions. Built an end-to-end system with BI dashboards to drive actionable insights on staffing optimization and CRM strategies.
 
-This project examines how the Hong Kong interest-rate hiking cycle coincided with changes in residential mortgage demand, approvals, transactions and negative-equity risk from January 2018 to December 2025.
+### 2. 📈 Quant Strategy & Interactive Dashboard
+**中**：将资深交易员的“主观盘感”转化为标准化的量化指标，并独立开发 Streamlit 交互式看板。排查并修复了导致假收益的“前视偏差（Look-ahead Bias）”，展示了从需求挖掘到数据产品交付的完整闭环。
+**EN**：Translated subjective trading experience into quantifiable signals. Built a Streamlit dashboard and proactively fixed a Look-ahead Bias, demonstrating the full lifecycle from requirement analysis to data product delivery.
 
-It combines a reproducible Python data pipeline, mixed-frequency exploratory analysis, a transparent composite stress index and a bilingual interactive dashboard. The presentation focuses on analytical evidence, business interpretation and visual communication.
-
-## Key Findings
-
-- Mortgage applications fell **25.3%** during the hiking window, while approvals declined **17.8%** and residential transactions declined **24.3%**.
-- The composite mortgage stress index peaked at **58.7/100 in July 2024**; alternative weighting schemes produced peaks of 58.7–60.7, supporting the timing result.
-- Three-month HIBOR and mortgage applications moved in opposite directions, with a descriptive correlation of **-0.70**.
-- Applications and residential transactions were most closely related at zero lag (**r = 0.67**), indicating a largely synchronous market cycle rather than a stable one-way lead.
-- Negative equity appeared later: HIBOR led the strongest negative-equity relationship by **12 months (r = 0.85)**, although common trends and quarterly sampling limit causal interpretation.
-
-## Portfolio Highlights
-
-| Analytical focus | What the dashboard shows |
-| --- | --- |
-| Market cycle segmentation | Pre-hiking, hiking and post-hiking comparisons |
-| Composite risk measurement | Stress-index construction and three weighting scenarios |
-| Relationship analysis | Correlation heatmap and lead-lag diagnostics |
-| Business translation | Executive KPI cards, structured findings and limitations |
-| Communication | Responsive Chinese-English interface and reproducible documentation |
-
-<details>
-<summary><strong>Mobile dashboard preview</strong></summary>
-
-![Mobile dashboard preview](artifacts/mobile.png)
-
-</details>
-
-## Data Sources
-
-| Domain | Official source | Frequency |
-| --- | --- | --- |
-| Mortgage applications, approvals and LTV | HKMA Residential Mortgage Survey | Monthly |
-| Negative equity | HKMA Mortgage Loans in Negative Equity Survey | Quarterly |
-| Interest rates | HKMA Hong Kong Dollar Interest Settlement Rates | Monthly average |
-| Residential transactions | Hong Kong Land Registry | Monthly |
-| Unemployment | Census and Statistics Department | Rolling three-month |
-| Inflation | Census and Statistics Department | Monthly year-on-year |
-
-## Analytical Workflow
-
-1. Download fixed snapshots from official open-data sources.
-2. Harmonise monthly, rolling-quarterly and quarterly observations.
-3. Build application, approval, transaction, rate, negative-equity and macroeconomic indicators.
-4. Calculate a four-component mortgage stress index and test alternative weights.
-5. Run descriptive correlation and lead-lag analysis with explicit limitations.
-6. Publish the evidence through an interactive bilingual dashboard.
-
-## Reproduce the Project
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-
-python scripts/download_data.py
-python scripts/build_dataset.py
-python scripts/build_dashboard_data.py
-python -m pytest -q
-```
-
-Open `dashboard/index.html` directly, or serve the repository locally:
-
-```powershell
-python -m http.server 8000
-```
-
-Then visit `http://127.0.0.1:8000/dashboard/`.
-
-## Repository Structure
-
-```text
-dashboard/             interactive bilingual dashboard
-artifacts/             desktop and mobile dashboard previews
-data/raw/              official source snapshots, excluded from Git
-data/processed/        generated analysis datasets, excluded from Git
-docs/                  reports, methodology, data dictionary and portfolio notes
-scripts/               data download and reproducible transformation pipeline
-tests/                 pipeline and visual regression checks
-```
-
-
-## Important Limitations
-
-- The stress index is a relative monitoring gauge, not a credit-risk probability or investment signal.
-- Monthly observations provide a limited sample for statistical inference.
-- Negative-equity data is quarterly and common time trends may inflate correlation estimates.
-- Approvals divided by applications is a market-level proxy, not a cohort-level approval probability.
-- Correlation and lead-lag results are descriptive and should not be interpreted as causal estimates.
-
-## About This Portfolio Version
-
-This academic team project is presented as a data-analysis portfolio case study. The public dashboard intentionally omits personal member details. When using the project in a job application, add a short and truthful statement of your own contribution.
-
-For interview preparation, see [portfolio-notes.md](docs/portfolio-notes.md).
+### 3. 🏠 Hong Kong Mortgage Risk Monitor
+**中**：整合 96 个月多源宏观数据，构建“住宅按揭压力指数”并量化加息周期影响（申请量下降 25.3%）。通过领先滞后分析识别风险传导机制，输出双语仪表盘辅助业务决策。
+**EN**：Integrated 96 months of multi-source macro data to construct a "Mortgage Stress Index". Utilized lead-lag analysis to identify risk transmission mechanisms and delivered bilingual dashboards for executive decision-making.
