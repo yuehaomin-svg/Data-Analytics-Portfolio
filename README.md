@@ -1,4 +1,4 @@
-# 📊 Data Analytics & Strategy Portfolio
+# Data Analytics & Strategy Portfolio
 # 商业数据分析与策略落地作品集
 
 👋 **Hi, I'm Marin.** 
@@ -33,9 +33,9 @@
 
 | Project | Analytical Focus | Key Evidence |
 | :--- | :--- | :--- |
-| 🍽️ **[Restaurant Ordering & Operational Analytics](https://github.com/yuehaomin-svg/Restaurant-Ordering-and-Operational-Analytics)** | Transaction system, product analysis, customer retention, and hourly demand. | MySQL schema, transaction tests, BI dashboards, and validation on UCI real-world data. |
-| 📈 **[Quant Strategy & Interactive Dashboard](https://github.com/yuehaomin-svg/quant-dashboard)** | Subjective business needs translation, signal automation, and data product visualization. | Streamlit web app, MLP factor exploration, and Look-ahead bias risk control. |
-| 🏠 **[Hong Kong Mortgage Risk Monitor](https://github.com/yuehaomin-svg/Hong-Kong-Mortgage-Risk-Macro-Factor-Transmission-Analysis)** | Macro-factor cycles, composite risk measurement, and lead-lag causal analysis. | Reproducible data pipelines, sensitivity analysis, and bilingual interactive dashboards. |
+|  **[Restaurant Ordering & Operational Analytics](https://github.com/yuehaomin-svg/Restaurant-Ordering-and-Operational-Analytics)** | Transaction system, product analysis, customer retention, and hourly demand. | MySQL schema, transaction tests, BI dashboards, and validation on UCI real-world data. |
+|  **[Quant Strategy & Interactive Dashboard](https://github.com/yuehaomin-svg/quant-dashboard)** | Subjective business needs translation, signal automation, and data product visualization. | Streamlit web app, MLP factor exploration, and Look-ahead bias risk control. |
+|  **[Hong Kong Mortgage Risk Monitor](https://github.com/yuehaomin-svg/Hong-Kong-Mortgage-Risk-Macro-Factor-Transmission-Analysis)** | Macro-factor cycles, composite risk measurement, and lead-lag causal analysis. | Reproducible data pipelines, sensitivity analysis, and bilingual interactive dashboards. |
 
 ---
 
@@ -43,14 +43,14 @@
 
 ## Project Highlights | 项目业务亮点
 
-### 1. 🍽️ Restaurant Ordering & Operational Analytics
+### 1.  Restaurant Ordering & Operational Analytics
 **中**：源于真实餐饮业务痛点，从 0 到 1 搭建完整交易闭环与 BI 分析链路。通过指标构建（净销售/复购率/退款率）与可视化看板，为管理层提供排班优化与 CRM 运营策略支持。
 **EN**：Bridged the gap between raw transactions and business decisions. Built an end-to-end system with BI dashboards to drive actionable insights on staffing optimization and CRM strategies.
 
-### 2. 📈 Quant Strategy & Interactive Dashboard
+### 2. Quant Strategy & Interactive Dashboard
 **中**：将资深交易员的“主观盘感”转化为标准化的量化指标，并独立开发 Streamlit 交互式看板。排查并修复了导致假收益的“前视偏差（Look-ahead Bias）”，展示了从需求挖掘到数据产品交付的完整闭环。
 **EN**：Translated subjective trading experience into quantifiable signals. Built a Streamlit dashboard and proactively fixed a Look-ahead Bias, demonstrating the full lifecycle from requirement analysis to data product delivery.
 
-### 3. 🏠 Hong Kong Mortgage Risk Monitor
+### 3. Hong Kong Mortgage Risk Monitor
 **中**：整合 96 个月多源宏观数据，构建“住宅按揭压力指数”并量化加息周期影响（申请量下降 25.3%）。通过领先滞后分析识别风险传导机制，输出双语仪表盘辅助业务决策。
 **EN**：Integrated 96 months of multi-source macro data to construct a "Mortgage Stress Index". Utilized lead-lag analysis to identify risk transmission mechanisms and delivered bilingual dashboards for executive decision-making.
